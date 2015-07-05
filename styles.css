@@ -81,10 +81,8 @@ header {
     
 }
 
-#main {
-    height: 1000px;
-    width: 1000px;
-    background-color: #e8e2e2
+.main {
+    background-color: #e8e2e2;
 }
 
 #services {
@@ -120,7 +118,7 @@ header {
 
 .side-bar {
     height: 2000px;
-    background-image: url(../images/footer_lodyas.png);
+    background-color: #797272;
 }
 
 .desc {
