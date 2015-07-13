@@ -1,128 +1,253 @@
-header {
-    background-attachment: fixed;
-    background-color: #257cbc;  
-    background-size: cover;
-    height: 100px;
+.header {
+    background-image: url(../images/footer_lodyas.png);
+    height: 150px;
+    display: inline-block;
+    position: fixed;
+    z-index: 1000;
 }
 
-#logo {
-    width: 125px;
-    height: 110px;
-    border: 2px;
-    border-color:black;
+.logo {
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+}
+
+.fa {
+    color: #f46034;
+    text-align: right;
+    margin: 10px;
+    display: inline-block;
+}
+
+.twitter {
+    display: inline-block;
+}
+
+.instagram {
+    display: inline-block;
+}
+
+.facebook {
+    display: inline-block;
+}
+
+.pinterest {
+    display: inline-block;
+}
+
+.media {
+    text-align: right;
+    display: inline-block;
+}
+
+.pages ul {
+    text-align: right;
+}
+
+.page {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15%;
+    text-align: right;
+}
+
+a .page {
+    color: #f46034;
+    text-decoration: none;
     
 }
 
-#space-holder {
-    height: 60px;
-    background-color: #257cbc;
+a .page:hover {
+    color: #f46034;
+    text-decoration: none;
+    background-color: #2a2a2a;
+    border-left: 2px dashed #f46034;
 }
 
-.navbar-brand,
-.nav li a {
-    color: #ffffff;
+.active {
+    background-color: #2a2a2a;
+    border-left: 2px solid #f46034;
 }
 
-.navbar-brand:focus,
-.navbar-brand:hover {
-    color: #000;
+body {
+    background-image: url(../images/Marble.png);
 }
 
-.nav li a:focus,
-.nav li a:hover {
-    background-color: transparent;
-    color: #000;
+.home {
+    margin-top: 150px;
+    height: 600px;
+    display: inline-block;
 }
 
-.navbar-toggle .icon-bar {
-    background-color: #ffffff;
+.busiState {
+    padding: 10px;
+    display: inline-block;
+    margin: 35px;
 }
 
-.quotes h2 {
+.line {
+    height: 4px;
+    background-image: url();
+    margin-top: 10px;
+}
+
+.moto {
+    padding: 4px;
+    display: inline-block;
+}
+
+.execSum {
+    display: inline-block;
+    margin: 20px;
+}
+
+.moto-pic {
     text-align: center;
+    margin-top: 20px;
 }
 
-.quote-list article .quote {
-    color: #646464;
-    font-style: italic;
-}
-
-.quote-list article .bio .author,
-.quote-list article .bio .image {
+.exec-sum-pic {
+    text-align: center;
     float: left;
 }
 
-.quote-list article .bio .image img {
-    border-radius: 50%;
+.exec-pic-pic {
+    text-align: left;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
 }
 
-.quote-list article .bio .author {
-    padding-left: 10px;
+.service-tab {
+    height: 75px;
+    background-image: url(../images/footer_lodyas.png);
+    color: #f46034;
+    padding: 1px;
+    padding-left: 30px;
 }
 
-.quote-list article .bio .author .name {
-    font-weight: bold;
-    font-size: 18px;
-    margin-bottom: 5px;
+.services-content {
+    height: 300px;
 }
 
-.quote-list article .bio .author .slug {
-    font-size: 14px;
-}
-
-@media only screen and (min-width : 480px) {
-    .quote-list article {
-        margin-bottom: 30px;
-    }
-    
-   .quote-list article:last-child {
-        margin-bottom: 0;
-    } 
-    
-}
-
-.main {
-    background-color: #e8e2e2;
-    height: 425px;
-}
-
-#services {
+.facebook-service {
     text-align: center;
-    text-decoration: underline;
-    color: #454040;
+    margin-top: 10px;
+    height: 300px;
 }
 
-.service {
+.facebook-circle {
+    border: 2px solid #2a2a2a;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+.desktop-service {
     text-align: center;
-    background-color: #b4aeae;
-    border-radius: 5%;
-    height: 350px;
+    margin-top: 10px;
+    height: 300px;
 }
 
-.bio a {
-    color: black;
-    text-decoration: none;
+.desktop-circle {
+    border: 2px solid #2a2a2a;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin: auto;
 }
 
-.bio a:visited {
-    background-color: #b4adad;
+.twitter-service {
+    text-align: center;
+    margin-top: 10px;
+    height: 300px;
 }
 
-.bio {
-    border: 1px;
-    border-color: #2f6ea3;
+.twitter-circle {
+    border: 2px solid #2a2a2a;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin: auto;
 }
 
-.description {
-    color: black;
+.instagram-service {
+    text-align: center;
+    margin-top: 10px;
+    height: 300px;
+}
+
+.instagram-circle {
+    border: 2px solid #2a2a2a;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+.pinterest-service {
+    text-align: center;
+    margin-top: 10px;
+    height: 300px;
+}
+
+.pinterest-circle {
+    border: 2px solid #2a2a2a;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+.our-team-tab {
+    height: 75px;
+    background-image: url(../images/footer_lodyas.png);
+    color: #f46034;
+    padding: 1px;
+    padding-left: 30px;
+}
+
+.service-space {
+    height: 300px;
+}
+
+.exec-sum-pic {
+    margin: 2px;
+}
+
+.us-pic {
+    width: 100%;
+}
+
+.contact-us-tab {
+    height: 75px;
+    background-image: url(../images/footer_lodyas.png);
+    color: #f46034;
+    padding: 1px;
+    padding-left: 30px;
+}
+
+.com-desc {
+    padding: 30px;
+}
+
+.contact-form {
+    padding: 10px;
+    margin: 10px;
+}
+
+div div input {
+    padding: 10px;
+}
+
+.message {
+    height: 100px;
+    text-align: left;
+}
+
+.submit {
+    float: right;
     
-} 
-
-.side-bar {
-    height: 2000px;
-    background-color: #797272;
-}
-
-.desc {
-    height: 150px;
 }
