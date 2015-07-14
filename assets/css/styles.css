@@ -140,10 +140,6 @@ body {
     padding-left: 30px;
 }
 
-.services-content {
-    height: 300px;
-}
-
 .facebook-service {
     text-align: center;
     margin-top: 10px;
@@ -161,6 +157,8 @@ body {
 .facebook-logo {
     padding-top: 15px;
 }
+
+
 
 .desktop-service {
     text-align: center;
