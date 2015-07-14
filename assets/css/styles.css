@@ -87,7 +87,6 @@ body {
 
 .home {
     margin-top: 150px;
-    height: 600px;
     display: inline-block;
 }
 
@@ -140,13 +139,12 @@ body {
     padding-left: 30px;
 }
 
-.facebook-service {
+.service {
     text-align: center;
     margin-top: 10px;
-    height: 300px;
 }
 
-.facebook-circle {
+.circle {
     border: 2px solid #2a2a2a;
     border-radius: 100%;
     height: 100px;
@@ -154,81 +152,7 @@ body {
     margin: auto;
 }
 
-.facebook-logo {
-    padding-top: 15px;
-}
-
-
-
-.desktop-service {
-    text-align: center;
-    margin-top: 10px;
-    height: 300px;
-}
-
-.desktop-circle {
-    border: 2px solid #2a2a2a;
-    border-radius: 100%;
-    height: 100px;
-    width: 100px;
-    margin: auto;
-}
-
-.desktop-logo {
-    padding-top: 15px;
-}
-
-.twitter-service {
-    text-align: center;
-    margin-top: 10px;
-    height: 300px;
-}
-
-.twitter-circle {
-    border: 2px solid #2a2a2a;
-    border-radius: 100%;
-    height: 100px;
-    width: 100px;
-    margin: auto;
-}
-
-.twitter-logo {
-    padding-top: 15px;
-}
-
-.instagram-service {
-    text-align: center;
-    margin-top: 10px;
-    height: 300px;
-}
-
-.instagram-circle {
-    border: 2px solid #2a2a2a;
-    border-radius: 100%;
-    height: 100px;
-    width: 100px;
-    margin: auto;
-}
-
-.instagram-logo {
-    padding-top: 15px;
-}
-
-.pinterest-service {
-    text-align: center;
-    margin-top: 10px;
-    height: 300px;
-}
-
-.pinterest-circle {
-    border: 2px solid #2a2a2a;
-    border-radius: 100%;
-    height: 100px;
-    width: 100px;
-    margin: auto;
-}
-
-.pinterest-logo {
+.service-logo {
     padding-top: 15px;
 }
 
