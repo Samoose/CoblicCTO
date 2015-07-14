@@ -168,10 +168,6 @@ body {
     padding-left: 30px;
 }
 
-.service-space {
-    height: 300px;
-}
-
 .exec-sum-pic {
     margin: 2px;
 }
@@ -196,7 +192,7 @@ body {
 .contact-form {
     padding: 10px;
     margin: 10px;
-    text-align: right;
+    text-align: center;
 }
 
 div div input {
