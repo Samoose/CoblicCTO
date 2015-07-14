@@ -1,22 +1,27 @@
-.header {
+header {
     background-image: url(../images/footer_lodyas.png);
     height: 100px;
-    display: inline-block;
-    position: fixed;
+    width: 100%;
     z-index: 1000;
 }
 
-.logo {
+.header-first {
+    background-image: url(../images/footer_lodyas.png);
+    position: fixed;
     width: 100%;
-    padding: 0px;
+    z-index: 100;
+}
+
+.logo {
+    height: 100%;
     text-align: left;
 }
 
 .fa {
     color: #f46034;
     text-align: right;
-    margin: 1px;
     display: inline-block;
+    padding: 5px;
 }
 
 .twitter {
@@ -37,21 +42,22 @@
 
 a div i:hover {
     color: #bc3e19;
-}
+}  
 
 .media {
     text-align: right;
-    display: inline-block;
+    padding-top: 50px;
 }
 
-.pages ul {
+.pages li {
     text-align: right;
+    display: inline-block;
+    padding: 10px;
 }
 
 .page {
     display: inline-block;
-    margin: 5px;
-    padding: 1px;
+    margin-right: 5px;
     border-radius: 15%;
     text-align: right;
 }
