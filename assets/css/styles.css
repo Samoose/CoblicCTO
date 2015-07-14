@@ -12,6 +12,10 @@ header {
     z-index: 100;
 }
 
+.homepage {
+    width: 100%;
+}
+
 .logo {
     height: 100%;
     text-align: left;
@@ -86,8 +90,8 @@ body {
 }
 
 .home {
-    margin-top: 150px;
     display: inline-block;
+    width: 100%;
 }
 
 .busiState {
