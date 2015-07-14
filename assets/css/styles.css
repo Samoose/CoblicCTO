@@ -1,6 +1,6 @@
 .header {
     background-image: url(../images/footer_lodyas.png);
-    height: 150px;
+    height: 100px;
     display: inline-block;
     position: fixed;
     z-index: 1000;
@@ -8,14 +8,14 @@
 
 .logo {
     width: 100%;
-    padding: 15px;
+    padding: 0px;
     text-align: left;
 }
 
 .fa {
     color: #f46034;
     text-align: right;
-    margin: 10px;
+    margin: 1px;
     display: inline-block;
 }
 
@@ -35,6 +35,10 @@
     display: inline-block;
 }
 
+a div i:hover {
+    color: #bc3e19;
+}
+
 .media {
     text-align: right;
     display: inline-block;
@@ -47,7 +51,7 @@
 .page {
     display: inline-block;
     margin: 5px;
-    padding: 10px;
+    padding: 1px;
     border-radius: 15%;
     text-align: right;
 }
@@ -68,6 +72,7 @@ a .page:hover {
 .active {
     background-color: #2a2a2a;
     border-left: 2px solid #f46034;
+    color: #f46034
 }
 
 body {
@@ -95,11 +100,13 @@ body {
 .moto {
     padding: 4px;
     display: inline-block;
+    font-size: 150%;
 }
 
 .execSum {
     display: inline-block;
     margin: 20px;
+    font-size: 150%
 }
 
 .moto-pic {
@@ -145,6 +152,10 @@ body {
     margin: auto;
 }
 
+.facebook-logo {
+    padding-top: 15px;
+}
+
 .desktop-service {
     text-align: center;
     margin-top: 10px;
@@ -157,6 +168,10 @@ body {
     height: 100px;
     width: 100px;
     margin: auto;
+}
+
+.desktop-logo {
+    padding-top: 15px;
 }
 
 .twitter-service {
@@ -173,6 +188,10 @@ body {
     margin: auto;
 }
 
+.twitter-logo {
+    padding-top: 15px;
+}
+
 .instagram-service {
     text-align: center;
     margin-top: 10px;
@@ -187,6 +206,10 @@ body {
     margin: auto;
 }
 
+.instagram-logo {
+    padding-top: 15px;
+}
+
 .pinterest-service {
     text-align: center;
     margin-top: 10px;
@@ -199,6 +222,10 @@ body {
     height: 100px;
     width: 100px;
     margin: auto;
+}
+
+.pinterest-logo {
+    padding-top: 15px;
 }
 
 .our-team-tab {
@@ -231,11 +258,13 @@ body {
 
 .com-desc {
     padding: 30px;
+    font-size: 150%;
 }
 
 .contact-form {
     padding: 10px;
     margin: 10px;
+    text-align: right;
 }
 
 div div input {
