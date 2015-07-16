@@ -19,29 +19,41 @@
 
     <body>
         <header>
-             <div class="header">
-                 <div class="col-md-4"><img class="logo" src="assets/images/Coblic%20logo%20fixed.png" /></div>
-                 <div class="col-md-3"><img class="logo" src="assets/images/Coblic%20logo%20fixed.png" /></div>
-                 <div class="media col-md-8">
-                    <div class="twitter"><i class="fa fa-twitter-square fa-3x"></i></div>
-                    <div class="instagram"><i class="fa fa-instagram fa-3x"></i></div>
-                    <div class="facebook"><i class="fa fa-facebook-square fa-3x"></i></div>
-                    <div class="pinterest"><i class="fa fa-pinterest-square fa-3x"></i></div>
+            <div class="header">
+            <nav class="navbar navbar-default header-first nabar-fixed-top">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#"><img src="assets/images/Coblic%20logo%20fixed.png" class="logo" /></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right pages">
+                    <a href="#home"><div class="page active"><li role="presentation">Home</li></div></a>
+                    <a href="#services"><div class="page"><li role="presentation">Services</li></div></a>
+                    <a href="#our-team"><div class="page"><li role="presentation">Our Team</li></div></a>
+                    <a href="#contact-us"><div class="page"><li role="presentation">Contact Us</li></div></a>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+            <div>
+                <div class="media">
                     <a href="#"><div class="twitter"><i class="fa fa-twitter-square fa-3x"></i></div></a>
                     <a href="#"><div class="instagram"><i class="fa fa-instagram fa-3x"></i></div></a>
                     <a href="#"><div class="facebook"><i class="fa fa-facebook-square fa-3x"></i></div></a>
                     <a href="#"><div class="pinterest"><i class="fa fa-pinterest-square fa-3x"></i></div></a>
-                 </div>
-                 <div class="pages col-md-8">
-                     <ul class="nav nav-pills">
-                         <a href="#"><div class="page active"><li role="presentation">Home</li></div></a>
-                         <a href="#"><div class="page"><li role="presentation">Services</li></div></a>
-                         <a href="#"><div class="page"><li role="presentation">Our Team</li></div></a>
-                         <a href="#"><div class="page"><li role="presentation">Contact Us</li></div></a>
-                     </ul>   
-                 </div>
-             </div>
-         </header>
+                </div>
+                </div>
+            </div>
+        </header>
         <main>
             <div class="home" id="home">
                 <img src="assets/images/homepage.jpg" class="homepage" />
@@ -100,7 +112,47 @@
                     <h2>Our Team</h2> 
                 </div>
                 <div class="us">
-                    <img src="http://placehold.it/5000x2000" class="us-pic" />
+                    <div class="row">
+                        <div class="col-sm-3 ceo">
+                            <div class="ceo-pic">
+                                <a href="#" class="ceo-desc" id="ceo-desc">
+                                    <img src="http://placehold.it/100x100" class="ceo-image" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 ceo">
+                            <div class="ceo-pic">
+                                <img src="http://placehold.it/100x100" class="ceo-image" />
+                            </div>
+                        </div>
+                        <div class="col-sm-3 ceo">
+                            <div class="ceo-pic">
+                                <img src="http://placehold.it/100x100" class="ceo-image" />
+                            </div>
+                        </div>
+                        <div class="col-sm-3 ceo">
+                            <div class="ceo-pic">
+                                <img src="http://placehold.it/100x100" class="ceo-image" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 ceo">
+                            <div class="ceo-pic">
+                                <img src="http://placehold.it/100x100" class="ceo-image" />
+                            </div>
+                        </div>
+                        <div class="col-sm-4 ceo">
+                            <div class="ceo-pic">
+                                <img src="http://placehold.it/100x100" class="ceo-image" />
+                            </div>
+                        </div>
+                        <div class="col-sm-4 ceo">
+                            <div class="ceo-pic">
+                                <img src="http://placehold.it/100x100" class="ceo-image" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="contact-us-tab col-sm-12" id="contact-us">
                     <h2>Contact Us</h2> 
